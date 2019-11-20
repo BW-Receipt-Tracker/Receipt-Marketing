@@ -6,6 +6,12 @@ header {
     margin-bottom: 2%;
     padding-bottom: 2%;
 
+    .header-text {
+        flex-direction: column;
+        padding-left: 2%;
+        border: 2px solid red;
+    }
+
     h1 {
         font-size: 3rem;
         justify-content: flex-start;
@@ -18,17 +24,22 @@ header {
     }
     
     button {
-        .btn(#EB984E, 10%, black)
+        margin-left: 2%;
+        .btn(#EB984E, 15%, black)
     }
 }
 
-
+p {
+    font-size: 1.6rem;
+}
 
 .middle-content {
     
     display: flex;
-   
     justify-content: flex-start;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dashed black;
 
     img {
         width: 50%;
@@ -47,33 +58,65 @@ header {
         border: 2px solid aqua;
         justify-content: center;
         width: 100%;
+        font-size: 2rem;
     }
 }
 
 .middle-bottom-content {
     display: flex;
+    flex-direction: row-reverse;
     border: 2px solid gray;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dashed black;
 
     img {
-        max-width: 45%;
+        width: 45%;
         border: 2px solid blue;
     }
+
+    .text2 {
+        display: flex;
+        border: 2px solid orange;
+        justify-content: center;
+        flex-direction: column;
+        width: 55%;
+    }
+
     h2 {
-        width: 100%;
+        display: flex;
         border: 2px solid aqua;
+        justify-content: center;
+        width: 100%;
+        font-size: 2rem;
     }
 }
 
 .bottom-content {
     display: flex;
     border: 2px solid aqua;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 2%;
 
     img {
-        max-width: 45%;
+        width: 45%;
         border: 2px solid blue;
     }
+
+    .text3 {
+        display: flex;
+        border: 2px solid orange;
+        justify-content: center;
+        flex-direction: column;
+        width: 55%;
+    }
+
     h2 {
-        width: 100%;
+        display: flex;
         border: 2px solid aqua;
+        justify-content: center;
+        width: 100%;
+        font-size: 2rem;
     }
 }
