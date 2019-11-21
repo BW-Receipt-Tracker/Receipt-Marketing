@@ -154,7 +154,6 @@ h5 {
 @media (max-width: 500px) {
   .container {
     width: 100%;
-    border: 2px solid red;
   }
 }
 /*About Page*/
@@ -177,7 +176,6 @@ footer {
 .About-Footer {
   background-color: transparent;
   margin-top: 5%;
-  border: 2px solid orange;
 }
 header {
   display: flex;
@@ -273,12 +271,11 @@ p {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 2%;
-  padding-bottom: 2%;
+  margin-top: 2%;
   height: 300px;
 }
 @media (max-width: 500px) {
   .middle-content {
-    border: 2px solid blue;
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
@@ -317,11 +314,10 @@ p {
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 2%;
-  padding-bottom: 2%;
+  margin-top: 2%;
 }
 @media (max-width: 500px) {
   .middle-bottom-content {
-    border: 2px solid blue;
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
@@ -345,10 +341,10 @@ p {
   flex-direction: column-reverse;
   align-items: center;
   margin-bottom: 2%;
+  margin-top: 2%;
 }
 @media (max-width: 500px) {
   .bottom-content {
-    border: 2px solid blue;
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
@@ -392,7 +388,7 @@ p {
 }
 .header2 h1 {
   font-family: 'Ibarra Real Nova', serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   padding-top: 15%;
   margin-bottom: -10%;
@@ -401,6 +397,7 @@ p {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+  margin-left: 1%;
 }
 .About-text1 {
   display: flex;
@@ -411,7 +408,7 @@ p {
   padding-left: 4%;
 }
 .About-text1 p {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 .bio1 {
   display: flex;
@@ -420,7 +417,7 @@ p {
 .bio1 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .bio2 {
   display: flex;
@@ -429,7 +426,7 @@ p {
 .bio2 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .bio3 {
   display: flex;
@@ -438,7 +435,7 @@ p {
 .bio3 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .bio4 {
   display: flex;
@@ -447,7 +444,7 @@ p {
 .bio4 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .bio5 {
   display: flex;
@@ -456,5 +453,5 @@ p {
 .bio5 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
