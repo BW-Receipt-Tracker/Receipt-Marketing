@@ -188,6 +188,7 @@ header {
 @media (max-width: 500px) {
   header {
     flex-direction: column;
+    margin-bottom: 5%;
   }
 }
 header .header-text {
@@ -279,6 +280,7 @@ p {
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
+    margin-bottom: 5%;
   }
 }
 .middle-content img {
@@ -298,6 +300,12 @@ p {
   flex-direction: column;
   width: 60%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .middle-content .text1 {
+    width: 100%;
+    text-align: center;
+  }
 }
 .middle-content h2 {
   display: flex;
@@ -321,6 +329,7 @@ p {
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
+    margin-bottom: 5%;
   }
 }
 .middle-bottom-content .text2 {
@@ -329,6 +338,12 @@ p {
   flex-direction: column;
   width: 55%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .middle-bottom-content .text2 {
+    width: 100%;
+    text-align: center;
+  }
 }
 .middle-bottom-content h2 {
   display: flex;
@@ -348,6 +363,8 @@ p {
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 .bottom-content img {
@@ -370,6 +387,12 @@ p {
   padding-bottom: 2%;
   padding-left: 2%;
 }
+@media (max-width: 500px) {
+  .bottom-content .text3 {
+    width: 100%;
+    text-align: center;
+  }
+}
 .bottom-content h2 {
   display: flex;
   justify-content: center;
@@ -386,12 +409,35 @@ p {
   height: 300px;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .header2 .image5 {
+    width: 500px;
+    height: 250px;
+  }
+}
+.header2 .button-class-about {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  padding-top: 1%;
+}
+.header2 .button-class-about a {
+  color: black;
+}
 .header2 h1 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 3.5rem;
   font-weight: 900;
   padding-top: 15%;
   margin-bottom: -10%;
+}
+@media (max-width: 500px) {
+  .header2 h1 {
+    margin-bottom: 3%;
+  }
 }
 .images-About {
   width: 300px;
@@ -407,51 +453,116 @@ p {
   width: 65%;
   padding-left: 4%;
 }
+@media (max-width: 500px) {
+  .About-text1 {
+    width: 100%;
+  }
+}
 .About-text1 p {
   font-size: 1.9rem;
+}
+@media (max-width: 500px) {
+  .About-text1 p {
+    width: 100%;
+  }
 }
 .bio1 {
   display: flex;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .bio1 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .bio1 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
   font-size: 2.3rem;
 }
+@media (max-width: 500px) {
+  .bio1 h2 {
+    padding-top: 2%;
+  }
+}
 .bio2 {
   display: flex;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .bio2 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .bio2 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
   font-size: 2.3rem;
 }
+@media (max-width: 500px) {
+  .bio2 h2 {
+    padding-top: 2%;
+  }
+}
 .bio3 {
   display: flex;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .bio3 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .bio3 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
   font-size: 2.3rem;
 }
+@media (max-width: 500px) {
+  .bio3 h2 {
+    padding-top: 2%;
+  }
+}
 .bio4 {
   display: flex;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .bio4 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .bio4 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
   font-size: 2.3rem;
 }
+@media (max-width: 500px) {
+  .bio4 h2 {
+    padding-top: 2%;
+  }
+}
 .bio5 {
   display: flex;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .bio5 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .bio5 h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 600;
   font-size: 2.3rem;
+}
+@media (max-width: 500px) {
+  .bio5 h2 {
+    padding-top: 2%;
+  }
 }
