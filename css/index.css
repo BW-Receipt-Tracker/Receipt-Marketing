@@ -283,7 +283,6 @@ p {
   background-color: transparent;
 }
 .header2 .image5 {
-  border-radius: 10px;
   height: 300px;
   width: 100%;
 }
@@ -291,4 +290,32 @@ p {
   font-size: 3rem;
   font-weight: 900;
   padding-top: 15%;
+}
+.bio1 {
+  display: flex;
+}
+.bio1 .image6 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.bio1 .About-text1 {
+  display: flex;
+  border: 2px solid red;
+}
+.bio1 h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.bio2 {
+  display: flex;
+}
+.bio2 .image7 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.bio2 h2 {
+  font-weight: 500;
+  font-size: 2rem;
 }
