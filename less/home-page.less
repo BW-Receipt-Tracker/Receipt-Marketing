@@ -1,25 +1,41 @@
 header {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2%;
     padding-bottom: 2%;
     background-color: #AED5FC;
-
+    @media @mobile {
+        flex-direction: column;
+    }
     .header-text {
         flex-direction: column;
         padding-left: 2%;
-        
+        width: 50%;
         margin-right: 7%;
+
+        @media @mobile {
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
     }
 
     h1 {
+        
         font-size: 3rem;
         font-weight: 900;
         justify-content: flex-start;
     }
 
-    img {
+    
+        img {
+            @media @mobile {
+                width: 300px;
+                height: 300px;
+            }
         width: 25%;
         justify-content: flex-start;
         
@@ -30,15 +46,33 @@ header {
 }
 
 .button-class {
-   
+
     display: flex;
     flex-direction: column;
     align-content: space-between;
     margin-left: -6%;
     padding-right: 2%;
-    button {
-    
-        .btn(silver, 100%, black)
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    a {
+        
+        .btn(silver, 100px, black);
+        @media @mobile {
+            width: 100vw;
+            margin: 0;
+            border-radius: 0px;
+            br {
+                display: none;
+            }
+        }
     }
 }
 
@@ -47,16 +81,22 @@ p {
 }
 
 .middle-content {
-    
+    @media @mobile {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2%;
-    padding-bottom: 2%;
-    
-    
+    margin-top: 2%;
     height: 300px;
 
     img {
+        @media @mobile {
+            width: 300px;
+            height: 200px;
+        }
         width: 40%;
         height: auto;
         border-radius: 10px;
@@ -88,10 +128,14 @@ p {
 .middle-bottom-content {
     display: flex;
     flex-direction: row-reverse;
-    
     margin-bottom: 2%;
-    padding-bottom: 2%;
+    margin-top: 2%;
     
+    @media @mobile {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
 
     .text2 {
         display: flex;
@@ -117,11 +161,23 @@ p {
     flex-direction: column-reverse;
     align-items: center;
     margin-bottom: 2%;
+    margin-top: 2%;
+
+    @media @mobile {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
 
     img {
         width: 45%;
         height: auto;
         border-radius: 10px;
+
+        @media @mobile {
+            width: 300px;
+            height: 200px;
+        }
     }
 
     .text3 {
@@ -157,45 +213,83 @@ p {
         width: 100%;
     }
     h1 {
-        font-size: 3rem;
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 3.5rem;
         font-weight: 900;
         padding-top: 15%;
+        margin-bottom: -10%;
     }
 }
 
+.images-About {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
+.About-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    padding-left: 4%;
+
+    p {
+        font-size: 1.9rem;
+    }
+}
 
 .bio1 {
     display: flex;
-
-    .image6 {
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;
-    }
-
-    .About-text1 {
-        display: flex;
-        border: 2px solid red;
-    }
+    padding: 2%;
 
     h2 {
-        font-weight: 500;
-        font-size: 2rem;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        font-size: 2.3rem;
     }
 
 }
 
 .bio2 {
     display: flex;
-
-    .image7 {
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;
+    padding: 2%;
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        font-size: 2.3rem;
     }
+}
+
+.bio3 {
+    display: flex;
+    padding: 2%;
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        font-size: 2.3rem;
+    }
+}
+
+.bio4 {
+    display: flex;
+    padding: 2%;
+    h2 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        font-size: 2.3rem;
+    }
+}
+
+.bio5 {
+    display: flex;
+    padding: 2%;
     
     h2 {
-        font-weight: 500;
-        font-size: 2rem;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 600;
+        font-size: 2.3rem;
     }
 }
